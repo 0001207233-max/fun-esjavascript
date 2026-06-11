@@ -1,0 +1,7 @@
+function soma(){
+    let n1= Number (prompt("Digite o primeiro número: "))
+    let n2= Number (prompt("Digite o segundo número: "))
+    let resultado = n1 + n2;
+    alert("A soma é: " + resultado);
+}
+soma()
