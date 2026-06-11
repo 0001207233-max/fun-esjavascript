@@ -1,0 +1,6 @@
+function multiplicação(){
+    let n1= Number (prompt("Digite o primeiro número: "))
+    let resultado = n1 * 2;
+    alert("A multiplicação é: " + resultado);
+}
+multiplicação()
