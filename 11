@@ -1,0 +1,11 @@
+function idade(){
+    idade=prompt("Digite a sua idade:")
+
+    if(idade>=18){
+        alert("Acesso permitido. É maior de idade!")
+    } else {
+        alert("Acesso negado. É menor de idade!")
+    }
+}
+
+idade()
