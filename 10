@@ -1,0 +1,15 @@
+function fatorial(){
+    numero=prompt("Digite um número para calcular o fatorial:")
+    resultado=1;
+    atual=numero;
+
+    while(atual>1){
+        resultado*=atual
+        atual--;
+    }
+
+    alert("O fatorial de "+numero+" é: "+resultado)
+   
+   
+}
+fatorial()
