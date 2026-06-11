@@ -1,0 +1,8 @@
+function conversao(celsius){
+    celsius=prompt("Digite um número para converter de Fahrenheit para Celsius: ")
+    resultado= celsius*9/5
+
+    alert("O Resultado é: "+resultado)
+}
+
+conversao()
